@@ -1,0 +1,31 @@
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.51rem;
+    margin-top: 1rem;
+}
+
+input,
+textarea {
+    border: 2px solid #FFC6AC;
+    font-size: 1.3rem;
+    padding: 0.6rem 0.5rem;
+    border-radius: 8px;
+}
+
+input:focus,
+input:active textarea:focus,
+textarea:focus {
+    border-color: #ec6222;
+    outline: #ec6222;
+}
+
+button {
+    padding: 0.5rem;
+    background-color: #ec6222;
+    color: #fff;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 16px;
+    outline: none;
+}

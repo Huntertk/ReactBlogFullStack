@@ -1,0 +1,97 @@
+.navContainer{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    align-items: center;
+    width: 100%;
+    top:2%;
+    right: 0px;
+    padding: 0 1rem;
+}
+.navContainer h3{
+    font-size: 1.9rem;
+    letter-spacing: 1.1px;
+}
+.navIcon{
+    font-size: 1.7rem;
+}
+
+.navLinks{
+    position: fixed;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50vh;
+    top: 10%;
+    right: 0px;
+    width: 50%;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+
+    background-color: #FFC6AC;
+    transition: all 0.5s ease-in-out;
+    -webkit-animation: scale-up-hor-right 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale-up-hor-right 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+
+}
+.navLinks p{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #272829;
+    letter-spacing: 1px;
+}
+
+.open{
+    display: flex;
+}
+
+.close{
+    display: none;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@-webkit-keyframes scale-up-hor-right {
+    0% {
+        -webkit-transform: scaleX(0.4);
+        transform: scaleX(0.4);
+        -webkit-transform-origin: 100% 100%;
+        transform-origin: 100% 100%;
+    }
+
+    100% {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+        -webkit-transform-origin: 100% 100%;
+        transform-origin: 100% 100%;
+    }
+}
+
+@keyframes scale-up-hor-right {
+    0% {
+        -webkit-transform: scaleX(0.4);
+        transform: scaleX(0.4);
+        -webkit-transform-origin: 100% 100%;
+        transform-origin: 100% 100%;
+    }
+
+    100% {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+        -webkit-transform-origin: 100% 100%;
+        transform-origin: 100% 100%;
+    }
+}
